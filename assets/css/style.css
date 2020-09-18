@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+@font-face {
+    font-family: Yekan;
+    font-style: normal;
+    font-weight: normal;
+    src: url('../font/Yekan/Yekan.eot'), url('../font/Yekan/Yekan.ttf') format('truetype'), url('../font/Yekan/Yekan.woff') format('woff'),
+}
+
+body {
+    font-family: Yekan;
+    font-size: 1em;
+}
+
+a {
+    font-family: Yekan;
+}
+
+
+/* -------------------------------------- start navigation ---------------------------------------*/
+
+nav ul {
+    margin-right: 29px;
+    margin: 9px;
+}
+
+nav ul>li {
+    margin-right: 16px;
+}
+
+
+/*----------------------------------------- end navigation -------------------------------------- */
+
+
+/*----------------------------------------- start haeder ------------------------------------------*/
+
+.header div.background {
+    width: 100%;
+    background-color: white;
+    background: linear-gradient(#D965A2 50px, #4124C2 350px);
+}
+
+.header div.background svg {
+    display: block;
+}
+
+
+/*----------------------------------------- end haeder  ------------------------------------------- */
+
+
+/* --------------------------------------- start content ------------------------------------------ */
+
+
+/* start step */
+
+.content .step .step-one {
+    height: 55px;
+    background: #fff;
+    -moz-border-radius: 70px;
+    -webkit-border-radius: 70px;
+    border-radius: 50%;
+    margin-left: 60px;
+    text-align: center;
+    color: #fff;
+    border: solid 2px;
+    border-color: #4B28C0;
+}
+
+.content .step .step-one h4 {
+    line-height: 2.1;
+}
+
+
+/* end step */
+
+
+/* start category */
+
+#category .cat-item {
+    /* width: 100%; */
+}
+
+
+/*----------------------------------------- end content  --------------------------------------------- */
